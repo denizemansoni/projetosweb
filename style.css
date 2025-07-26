@@ -1,0 +1,116 @@
+/*Cria variáveis de cor*/
+
+:root {
+    --vermelho:#E10600;
+    --preto-carbono: #1C1C1C;
+    --off-white: #F4F4F4;
+}
+
+body{
+    background-color: #F4F4F4;
+    color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilo do cabeçalho*/
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #1C1C1C;
+    color: white;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+
+/*Estilo do menu de navegação*/
+
+nav{
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+    color: #E10600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:white;
+    background-color: #E10600;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #1C1C1C;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+footer a {
+    color: #E10600;
+    margin: 0;
+    text-decoration: none;
+}
+/*Criando layout de duas colunas*/
+
+*{
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-text-box{
+    flex: 70%;
+    padding: 20px;
+}
+.profile{
+    flex: 70%;
+    padding: 20px;
+}
+
+/*Imagem de perfil e estilo de cabeçalho*/
+
+.profile img{
+    width: 500px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.profile h1{
+    text-align: center;
+}
+
+.site-header{
+    background-color: #1C1C1C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logo-box img{
+    height: 90px;
+}
+.logo-box h1{
+    font-size: 2em;
+    color: #E10600;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.slogan{
+    font-style: oblique;
+    font-size: 5px; 
+    color: var(--off-white);
+    margin-top: 5px;
+
+}
